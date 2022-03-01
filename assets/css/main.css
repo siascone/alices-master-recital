@@ -1796,6 +1796,16 @@ input, select, textarea {
 			margin-top: -0.75em;
 		}
 
+	header.major li {
+		color: #888;
+	}
+
+	header.major p {
+		margin: 0;
+		color: #888;
+
+	}
+
 /* Form */
 
 	form {
@@ -3106,6 +3116,8 @@ input, select, textarea {
 
 	}
 
+
+
 /* Small */
 
 	@media screen and (max-width: 736px) {
@@ -3172,6 +3184,23 @@ input, select, textarea {
 			.features article .inner {
 				display: block;
 				width: 100%;
+			}
+
+			.features div.stanza > p {
+				margin: 0;
+			}
+
+			.features article > h5 {
+				margin: 0;
+			}
+
+			.features div.stanza {
+				margin-top: 1em;
+
+			}
+
+			.not-bold {
+				font-weight:normal
 			}
 
 		/* Header */
@@ -3314,3 +3343,22 @@ input, select, textarea {
 			}
 
 	}
+
+/* My edits */
+
+.features div.stanza > p {
+	margin: 0 !important;
+}
+
+.features article > h5 {
+	margin: 0 !important;
+}
+
+.features div.stanza {
+	margin-top: 1em !important;
+
+}
+
+.not-bold {
+	font-weight: normal !important;
+}
