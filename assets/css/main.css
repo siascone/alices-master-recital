@@ -1806,6 +1806,20 @@ input, select, textarea {
 
 	}
 
+	.features div.stanza > p {
+		margin: 0 !important;
+	}
+
+	.features article > h5 {
+		margin: 0 !important;
+	}
+
+	.features div.stanza {
+		margin-top: 1em !important;
+
+	}
+
+
 /* Form */
 
 	form {
@@ -2694,6 +2708,19 @@ input, select, textarea {
 			.features article .inner > :last-child {
 				margin-bottom: 0;
 			}
+		
+		.features div.stanza > p {
+			margin: 0 !important;
+		}
+
+		.features article > h5 {
+			margin: 0 !important;
+		}
+
+		.features div.stanza {
+			margin-top: 1em !important;
+
+		}
 
 /* Header */
 
@@ -3172,6 +3199,23 @@ input, select, textarea {
 					font-size: 1.5em;
 				}
 
+			.features div.stanza > p {
+				margin: 0 !important;
+			}
+
+			.features article > h5 {
+				margin: 0 !important;
+			}
+
+			.features div.stanza {
+				margin-top: 1em !important;
+
+			}
+
+			.not-bold {
+				font-weight: normal !important;
+			}
+
 		/* Features */
 
 			.features article .image {
@@ -3361,4 +3405,14 @@ input, select, textarea {
 
 .not-bold {
 	font-weight: normal !important;
+}
+
+header.major li {
+	color: #888 !important;
+}
+
+header.major p {
+	margin: 0 !important;
+	color: #888 !important;
+
 }
